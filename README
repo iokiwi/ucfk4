@@ -15,12 +15,12 @@ utils        --- utility modules
 
 1. Install [Xcode](https://itunes.apple.com/nz/app/xcode/id497799835?mt=12")
 2. Install [MacPorts](https://www.macports.org/")
-```
+```bash
 xcodebuild -license
 ```
-```
+```bash
 xcode-select --install
 ```
-```
+```bash
 port install avr-gcc avr-libc dfu-programmer
 ```
