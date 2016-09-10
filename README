@@ -10,4 +10,17 @@ etc          --- miscellaneous scripts and makefile templates
 fonts        --- fonts and font creation program
 utils        --- utility modules
 
+#### Mac Environment setup
+<hr>
 
+1. Install [Xcode](https://itunes.apple.com/nz/app/xcode/id497799835?mt=12")
+2. Install [MacPorts](https://www.macports.org/")
+```
+xcodebuild -license
+```
+```
+xcode-select --install
+```
+```
+port install avr-gcc avr-libc dfu-programmer
+```
